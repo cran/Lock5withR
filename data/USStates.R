@@ -1,5 +1,0 @@
-name <- c(O="Obama", M="McCain")
-load("USStates.rda")
-USStates <- transform(USStates, Pres2008 = name[as.character(ObamaMcCain)])
-# USStates <- subset(USStates, select = -ObamaMcCain)
-rm(name)
